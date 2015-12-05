@@ -50,9 +50,9 @@ section.l2heading h2 {
 }
 section.l1heading {
   padding: 40px 20px;
-  background: #19181b;
+  background: #b70101;
   color: white;
-  transition: background-color 0.5s;
+  
 }
 section.l1heading h1 {
   font-size: 36pt;
