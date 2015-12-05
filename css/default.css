@@ -37,7 +37,7 @@ section.l1heading {
   background: #1f221e;
   transition: background-color 0.5s;
 }
-section.l2heading:hover {
+#about:hover {
   background: #2f322e;
 }
 section.l2heading h1 {
@@ -53,9 +53,6 @@ section.l1heading {
   background: #19181b;
   color: white;
   transition: background-color 0.5s;
-}
-section.l1heading:hover {
-  background: #29282b;
 }
 section.l1heading h1 {
   font-size: 36pt;
@@ -119,12 +116,25 @@ nav ul li a {
   min-width: 8em;
   display: inline-block;
 }
-img {
-  opacity: 1;
-  transition: opacity 0.5s;
+
+#top a:hover {
+  color: #5b94c5;
+  text-decoration: none;
 }
-img:hover {
-  opacity: 0.9;
+
+#top a:visited {
+  color: #5b94c5;
+  text-decoration: none;
+}
+
+#top a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .headerImage {
@@ -135,7 +145,6 @@ img:hover {
     margin-right: auto;
     display: block;
 }
-
 
 .sponsorLogo {
     max-width: 90%;
@@ -148,6 +157,7 @@ img:hover {
 .sponsorLogo:hover {
     box-shadow: 0em 0em 1em 1em rgba(255, 255,255, 0.2);
     background-color: rgba(255, 255,255, 0.2);
+    opacity: 0.9;
 }
 
 .sponsorLogoCol .overlayBlockDark, .sponsorLogoCol .overlayBlock, .sponsorLogoCol .overlayBlockLight  {
