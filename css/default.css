@@ -163,3 +163,13 @@ nav ul li a:hover {
 .sponsorLogoCol .overlayBlockDark, .sponsorLogoCol .overlayBlock, .sponsorLogoCol .overlayBlockLight  {
     background-color: inherit; /* Kill the noise */
 }
+
+section a:focus {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+section a:hover {
+  text-decoration: underline;
+  color: #5b94c5;
+}
