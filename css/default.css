@@ -6,14 +6,14 @@ body {
 }
 section,
 section.highlight,
-section.l3heading,
-section.l2heading,
+section.main-heading,
+section.side-heading,
 section.l1heading {
   padding: 10px 30px;
 }
 section.highlight,
-section.l3heading,
-section.l2heading {
+section.main-heading,
+section.side-heading {
   padding: 10px 10px;
   text-align: left;
   font-family: sans-serif;
@@ -23,48 +23,53 @@ section.l1heading {
   text-align: center;
   font-family: sans-serif;
 }
-section.l3heading {
+section.main-heading {
   text-align: left;
 }
-section.l3heading h1 {
+section.main-heading h1 {
   font-weight: normal;
   border-left: 15px solid #54282b;
   padding-left: 10px;
   transition: border-left-color 0.5s;
 }
-section.l3heading h1:hover {
+section.main-heading h1:hover {
   border-left: 15px solid #7e5356;
 }
-section.l2heading,
+section.side-heading,
 section.l1heading {
   padding: 20px 20px;
-  
-  
 }
 
-section.l2heading h1 {
+section.side-heading h1 {
   font-size: 18pt;
   color: #b70101;
 }
-section.l2heading h2 {
+section.side-heading h2 {
   color: #817855;
   font-size: 14pt;
 }
-section.l1heading {
+#top {
   padding: 40px 20px;
   background: #b70101;
   color: white;
-  
 }
-section.l1heading h1 {
+#top h1 {
   font-size: 36pt;
   margin: 0px;
 }
-section.l1heading h2 {
+#top h2 {
   font-style: italic;
   font-weight: normal;
 }
+#top a:hover {
+  color: yellow;
+  text-decoration: none;
+}
 
+#top a {
+  color: gold;
+  text-decoration: none;
+}
 section.story {
   width: 80%;
   display: inline-block;
@@ -119,21 +124,6 @@ nav ul li a {
   display: inline-block;
 }
 
-#top a:hover {
-  color: #5b94c5;
-  text-decoration: none;
-}
-
-#top a:visited {
-  color: #5b94c5;
-  text-decoration: none;
-}
-
-#top a {
-  color: #337ab7;
-  text-decoration: none;
-}
-
 nav ul li a:hover {
   color: white;
   text-decoration: none;
@@ -166,12 +156,43 @@ nav ul li a:hover {
     background-color: inherit; /* Kill the noise */
 }
 
+section a {
+  text-decoration: none;
+  color: #b70101;
+}
+
 section a:focus {
   text-decoration: none;
-  color: #337ab7;
+  color: #b70101;
 }
 
 section a:hover {
   text-decoration: underline;
-  color: #5b94c5;
+  color: #54282b;
+}
+
+section.notice p {
+  text-align: center;
+}
+
+.section-heading h1 {
+  color: #54282b;
+  font-size: 72px;
+}
+
+.section-heading h2 {
+  color: #54282b;
+  font-size: 48px;
+}
+
+/* This rule should be removed when hr elements are */
+body hr {
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #b70101, rgba(0, 0, 0, 0));
+  margin-bottom: 0px;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
 }
