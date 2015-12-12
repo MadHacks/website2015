@@ -30,11 +30,9 @@ section.main-heading h1 {
   font-weight: normal;
   border-left: 15px solid #54282b;
   padding-left: 10px;
-  transition: border-left-color 0.5s;
+  
 }
-section.main-heading h1:hover {
-  border-left: 15px solid #7e5356;
-}
+
 section.side-heading,
 section.l1heading {
   padding: 20px 20px;
