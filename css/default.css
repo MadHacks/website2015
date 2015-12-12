@@ -14,7 +14,8 @@ section.l1heading {
 section.highlight,
 section.main-heading,
 section.side-heading {
-  padding: 10px 10px;
+  /*padding: 10px 10px;*/
+  padding: 0px 0px;
   text-align: left;
   font-family: sans-serif;
 }
@@ -28,8 +29,8 @@ section.main-heading {
 }
 section.main-heading h1 {
   font-weight: normal;
-  border-left: 15px solid #54282b;
-  padding-left: 10px;
+  /**border-left: 15px solid #54282b;*/
+  padding-left: 0px;
   
 }
 
