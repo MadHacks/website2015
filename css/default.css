@@ -83,6 +83,7 @@ section.story {
   display: inline-block;
 }
 section.story p {
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: left;
 }
 .graph-top-nav ul {
