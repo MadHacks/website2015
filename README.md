@@ -3,8 +3,9 @@ Development repo for the MadHacks 2016 website
 
 | TODO | 
 |:-------:|
-| Combine What/Where/How Section into What is MadHacks. |
-| Get Favicon to Work. |
-| Update Main Logo. |
-| Removed unneeded copypasted code from the old website and Austin's Template. |
-| Brainstorm ideas to make the website stand out. |
+| Fix website header |
+| Make website mobile friendly |
+| Fix typography |
+| Add sponsor web copy |
+| Add application form |
+| Add circuit designer, Elishka L. Jepson, robyriker Designs, www.robyriker.com, credits | 
