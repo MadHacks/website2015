@@ -138,8 +138,7 @@ nav ul li a:hover {
 }
 
 .headerImage {
-    max-height: 85vh;
-    max-width: 85vw;
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -203,4 +202,11 @@ body hr {
 footer {
   height: 50px;
   background-color: black;
+}
+
+/* Mobile rules */
+@media (max-width: 900px) {
+  nav {
+    display: none !important;
+  }
 }
