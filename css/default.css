@@ -18,11 +18,14 @@ section.side-heading {
   padding: 0px 0px;
   text-align: left;
   font-family: sans-serif;
+ 
 }
+
 section.l1heading {
   padding: 10px 10px;
   text-align: center;
   font-family: sans-serif;
+  
 }
 section.main-heading {
   text-align: left;
@@ -41,11 +44,11 @@ section.l1heading {
 
 section.side-heading h1 {
   font-size: 18pt;
-  color: #b70101;
+  color: #54282B;
 }
 section.side-heading h2 {
   color: #817855;
-  font-size: 14pt;
+  font-size: 18pt;
 }
 #top {
   padding: 40px 20px;
@@ -176,7 +179,7 @@ section.notice p {
 
 .section-heading h1 {
   color: #54282b;
-  font-size: 72px;
+  font-size: 48px;
 }
 
 .section-heading h2 {
