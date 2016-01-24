@@ -3,12 +3,14 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   
 }
 section,
 section.highlight,
 section.main-heading,
 section.side-heading,
+section.l2heading,
 section.l1heading {
   padding: 10px 30px;
 }
@@ -28,10 +30,17 @@ section.story p
 }
 
 section.l1heading {
+  font-size: 48px;
+  background-image: url('../img/madhacks_skyline_murica_header.png');
+  background-position: center;
+  background-scale: auto cover;
+  height: 100vh;
+}
+section.l2heading h1 {
   padding: 10px 10px;
   text-align: center;
-  font-family: sans-serif;
-  
+  color: #54282b;
+  font-size: 36px;
 }
 section.main-heading {
   text-align: center;
@@ -77,7 +86,7 @@ section.side-heading h2 {
   text-decoration: none;
 }
 section.story {
-  width: 100%;
+  width: 80%;
   display: inline-block;
 }
 section.story p {
@@ -147,7 +156,7 @@ nav ul li a:hover {
 .sponsorLogo {
     max-width: 90%;
     display: block;
-	margin: 20px auto;
+    margin: 20px auto;
     box-shadow: 0em 0em 1em 1em rgba(255, 255,255, 0.1);
     background-color: rgba(255, 255,255, 0.1);
 }
@@ -191,11 +200,29 @@ section.notice p {
   font-size: 48px;
 }
 
-/* This rule should be removed when hr elements are */
-body hr {
+hr {
   height: 1px;
+  width: 50%;
+  border-style: none;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #b70101, rgba(0, 0, 0, 0));
   margin-bottom: 0px;
+}
+
+.sponsor {
+    display: inline-block;
+}
+.sponsor-row-t1 img {
+    height: 150px;
+}
+.sponsor-row-t2 img {
+    height: 100px;
+    max-width: 400px;
+}
+.rowx1 {
+    width: 100%;
+}
+.rowx2 .sponsor {
+    width: 49%;
 }
 
 footer {
