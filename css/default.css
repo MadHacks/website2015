@@ -30,12 +30,16 @@ section.story p
 }
 
 section.l1heading {
+  font-size: 48px;
+  background-image: url('../img/madhacks_skyline_murica_header.png');
+  background-position: center;
+  background-scale: auto cover;
+  height: 100vh;
+}
+section.l2heading h1 {
   padding: 10px 10px;
   text-align: center;
   color: #54282b;
-  font-size: 48px;
-}
-section.l2heading h1 {
   font-size: 36px;
 }
 section.main-heading {
@@ -202,6 +206,23 @@ hr {
   border-style: none;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #b70101, rgba(0, 0, 0, 0));
   margin-bottom: 0px;
+}
+
+.sponsor {
+    display: inline-block;
+}
+.sponsor-row-t1 img {
+    height: 150px;
+}
+.sponsor-row-t2 img {
+    height: 100px;
+    max-width: 400px;
+}
+.rowx1 {
+    width: 100%;
+}
+.rowx2 .sponsor {
+    width: 49%;
 }
 
 footer {
