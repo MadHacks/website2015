@@ -212,11 +212,14 @@ hr {
     display: inline-block;
 }
 .sponsor-row-t1 img {
-    height: 150px;
+    height: 200px;
 }
 .sponsor-row-t2 img {
     height: 100px;
-    max-width: 400px;
+}
+
+.row img {
+	height: 50px;
 }
 .rowx1 {
     width: 100%;
