@@ -40,7 +40,7 @@ section.l1heading {
 section.l2heading h1 {
   padding: 10px 10px;
   text-align: center;
-  color: #54282b;
+  color: #da2e2e;
   font-size: 36px;
 }
 section.main-heading {
@@ -200,7 +200,7 @@ hr {
   height: 1px;
   width: 50%;
   border-style: none;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #b70101, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #0a3e54, rgba(0, 0, 0, 0));
   margin-bottom: 0px;
 }
 
