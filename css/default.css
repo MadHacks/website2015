@@ -34,6 +34,7 @@ section.l1heading {
   background-image: url('../img/madhacks_skyline_murica_header.png');
   background-position: center;
   background-scale: auto cover;
+  background-color: #0a3e54;
   height: 100vh;
 }
 section.l2heading h1 {
@@ -146,10 +147,12 @@ nav ul li a:hover {
 }
 
 .headerImage {
-  width: 100%;
+  max-width: 90%;
+  max-height: 80vh;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin: auto;
   display: block;
 }
 
