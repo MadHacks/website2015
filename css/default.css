@@ -183,7 +183,7 @@ a.button {
   color: white;
   background: #0a3e54;
   padding: 4px;
-  transition: background 0.0625s ease-in-out;
+  transition: background 0.125s ease-in-out;
 }
 
 a.button:hover {
