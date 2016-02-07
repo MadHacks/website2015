@@ -89,60 +89,6 @@ section.story p {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: left;
 }
-.graph-top-nav ul {
-  list-style: none;
-  text-align: left;
-  border-bottom: 1px dotted #32303d;
-  margin: 0 0 20px 0px;
-  padding: 2px;
-}
-.graph-top-nav ul li {
-  display: inline-block;
-  background: #817855;
-  margin: 2px;
-  padding: 6px;
-  transition: background-color 0.25s;
-}
-.graph-top-nav ul li:hover,
-.graph-top-nav ul li.selected {
-  background: #a19875;
-}
-.graph-top-nav ul li a {
-  color: #272622;
-  text-decoration: none;
-  font-size: 13pt;
-}
-nav {
-  background: black;
-  color: white;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-}
-nav ul {
-  list-style: none;
-  margin: 0px;
-}
-nav ul li {
-  display: inline-block;
-  margin: 0px 10px;
-  padding: 8px;
-}
-nav ul li:hover {
-  background: #22202c;
-}
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 16pt;
-  min-width: 8em;
-  display: inline-block;
-}
-
-nav ul li a:hover {
-  color: white;
-  text-decoration: none;
-}
 
 .headerImage {
   max-width: 90%;
@@ -250,6 +196,7 @@ footer {
     font-weight: bold;
 }
 footer ul {
+	// PLACEHOLDER FOR IMG
     list-style-type: "-- ";
 }
 
