@@ -12,6 +12,7 @@ section.main-heading,
 section.side-heading,
 section.l2heading,
 section.l1heading {
+  box-sizing: border-box;
   padding: 10px 30px;
 }
 section.highlight,
@@ -40,7 +41,7 @@ section.l1heading {
 section.l2heading h1 {
   padding: 10px 10px;
   text-align: center;
-  color: #54282b;
+  color: #da2e2e;
   font-size: 36px;
 }
 section.main-heading {
@@ -120,6 +121,9 @@ section.story p {
 nav {
   background: black;
   color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 nav ul {
   list-style: none;
@@ -200,7 +204,7 @@ hr {
   height: 1px;
   width: 50%;
   border-style: none;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #b70101, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #0a3e54, rgba(0, 0, 0, 0));
   margin-bottom: 0px;
 }
 
@@ -243,8 +247,36 @@ hr {
 }
 
 footer {
-  height: 50px;
+  min-height: 50px;
+  margin-top: 40px;
   background-color: black;
+  padding: 5px 20px;
+  text-align: left;
+  color: white;
+}
+#footer-logo {
+    font-weight: bold;
+}
+footer ul {
+    list-style-type: "-- ";
+}
+
+a.button {
+  display: inline-block;
+  border: 1px solid white;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: white;
+  background: #0a3e54;
+  padding: 4px;
+  transition: background 0.25s ease-in-out;
+  transition: color 0.25s east-in-out;
+}
+a.button:hover {
+  background: white;
+  color: #0a3e54;
+  text-decoration: none;
 }
 
 /* Mobile rules */
