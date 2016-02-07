@@ -3,22 +3,20 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;  
 }
+
 section,
 section.highlight,
 section.main-heading,
 section.side-heading,
-section.l2heading,
-section.l1heading {
+section.l2heading {
   box-sizing: border-box;
   padding: 10px 30px;
 }
 section.highlight,
 section.main-heading,
 section.side-heading {
-  /*padding: 10px 10px;*/
   padding: 0px 0px;
   text-align: left;
   font-family: sans-serif;
@@ -31,10 +29,9 @@ section.story p
 }
 
 section.l1heading {
+  box-sizing: border-box;
   font-size: 48px;
-  background-image: url('../img/madhacks_skyline_murica_header.png');
   background-position: center;
-  background-scale: auto cover;
   background-color: #0a3e54;
   height: 100vh;
 }
@@ -49,7 +46,6 @@ section.main-heading {
 }
 section.main-heading h1 {
   font-weight: normal;
-  /**border-left: 15px solid #54282b;*/
 }
 
 section.side-heading,
@@ -67,7 +63,6 @@ section.side-heading h2 {
 }
 #top {
   padding: 40px 20px;
-  background: #b70101;
   color: white;
 }
 #top h1 {
@@ -173,12 +168,10 @@ nav ul li a:hover {
 
 section a {
   text-decoration: none;
-  color: #b70101;
 }
 
 section a:focus {
   text-decoration: none;
-  color: #b70101;
 }
 
 section a:hover {
@@ -270,9 +263,9 @@ a.button {
   color: white;
   background: #0a3e54;
   padding: 4px;
-  transition: background 0.25s ease-in-out;
-  transition: color 0.25s east-in-out;
+  transition: background 0.0625s ease-in-out;
 }
+
 a.button:hover {
   background: white;
   color: #0a3e54;
