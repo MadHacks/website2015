@@ -77,6 +77,30 @@ section.story p {
   display: block;
 }
 
+#faq {
+    padding: 40px;
+}
+#faq .box {
+  background: #f3a022;
+  max-width: 300px;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  height: 200px;
+  vertical-align: top;
+  transition: background 0.1s ease-in-out;
+}
+#faq .box:hover {
+  background: #ffa824;
+}
+#faq .box h2 {
+  margin: 0px;
+  font-size: 20px;
+}
+
 .sponsorLogo {
   max-height: 100%;
 }
