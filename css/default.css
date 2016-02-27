@@ -78,10 +78,11 @@ section.story p {
 }
 
 #faq {
-    padding: 40px;
+    width: 100%;
+    background-color:azure;
 }
 #faq .box {
-  background: #f3a022;
+  background-color: lightgray;
   max-width: 300px;
   width: 100%;
   display: inline-block;
@@ -94,7 +95,7 @@ section.story p {
   transition: background 0.1s ease-in-out;
 }
 #faq .box:hover {
-  background: #ffa824;
+  background: #ffb33f;
 }
 #faq .box h2 {
   margin: 0px;
