@@ -1,0 +1,309 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background-color: rgb(50,48,49);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.outside{
+  background-color:rgb(50,48,49);
+  height:1px;
+  float:left;
+  clear:left;
+}
+
+*{
+}
+
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#header{
+  position:relative;
+  width:100%;
+  height:250px;
+  background-color: rgb(193,51,46);
+  color:rgb(255,255,255);
+  margin-top:0;
+  padding-top:0;
+  align-content: center;
+
+}
+
+#header-container{
+  position:relative;
+  height:250px;
+  width:100%;
+
+}
+
+#header-left{
+  position:relative;
+  height:100%;
+}
+
+#header-logo{
+  position:absolute;
+  height:140px;
+  width:166px;
+  top:50%;
+  left:50%;
+  margin-top:-68px;
+  margin-left:-83px;
+
+}
+
+#header-right{
+  position:relative;
+  height:100%;
+  line-height: 1.05;
+}
+
+#header-text{
+  position:absolute;
+  top:50%;
+  margin-top:-55px;
+  height:100px;
+}
+
+#page-title{
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing:4px;
+  font-size: 18pt;
+  text-shadow: 0px 1px rgba(0,0,0,.5);
+}
+
+#logo-large{
+  font-size:40pt;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing:11px;
+  float:right;
+  text-shadow: 0px 1px rgba(0,0,0,.5);
+}
+
+#term{
+  font-size:20pt;
+  letter-spacing:3px;
+  font-weight:900;
+  color:rgb(50,48,49);
+  float:right;
+}
+
+#sponsorship{
+  position:relative;
+  height:250px;
+  min-height: 250px;
+}
+
+#sponsor-img{
+  position:relative;
+  height:250px;
+  float:left;
+  background: url('../img/sponsor.jpg');
+  background-size: auto 200%;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+
+}
+
+
+#sponsors-text{
+  position:relative;
+  height:100%;
+  float:left;
+  color:rgb(255,200,87);
+  text-align:left;
+  font-weight:100;
+  font-size:22pt;
+  line-height: 1;
+  letter-spacing: 4px;
+  padding-top:10px;
+}
+
+#social{
+  float:right;
+  margin-top:-35px;
+}
+
+#follow{
+  position:relative;
+  font-size:10pt;
+  font-weight:300;
+  letter-spacing: 1px;
+  padding-left:10px;
+}
+
+#follow-img{
+  width:20px;
+  height:20px;
+
+}
+
+#sponsorhsip-button{
+  position:relative;
+  background:rgb(255,200,87);
+  color:rgb(50,48,49);
+  font-weight: 300;
+  font-size:23pt;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  margin-bottom:20px;
+  min-height:70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width:281px;
+
+}
+
+#in-the-news{
+  position: relative;
+}
+
+#in-the-news-text{
+  position: relative;
+  height:125px;
+  float:left;
+  color:white;
+  text-align: right;
+  letter-spacing: 4px;
+  font-size: 23pt;
+  font-weight:500;
+  padding-top:10px;
+  background:rgb(8,75,97);
+  padding-right:20px;
+
+}
+#isthmus{
+  margin-right:-5px;
+  width:260px;
+  margin-top:-5px;
+}
+
+#in-the-news-picture{
+  position:relative;
+  height:125px;
+  float:left;
+  background: url('../img/article.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+}
+
+
+#about-us-inner{
+  background:rgb(23,126,137);
+  height:100px;
+  color:white;
+  font-weight:300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30pt;
+  letter-spacing:7px;
+
+}
+
+#about-us-what-img
+{
+  position:relative;
+  height:230px;
+  float:left;
+  background: url('../img/what-image.jpg');
+  background-size: auto 140%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#about-us-what-text{
+  position:relative;
+  height: 230px;
+  float: left;
+}
+
+#about-us-large{
+  position:relative;
+  float:left;
+  font-size:50pt;
+  color:rgb(255,200,87);
+  clear:both;
+
+}
+
+#about-us-what-text-text{
+   margin-left:-10px;
+   margin-top: -20px;
+   color:white;
+ }
+
+#about-us-who-text{
+  position:relative;
+  height: auto;
+  float: left;
+  margin-top:-20px;
+}
+
+#about-us-who-img
+{
+  position:relative;
+  height:200px;
+  float:left;
+  background: url('../img/who-img.jpg');
+  background-size: auto 250%;
+  background-repeat: no-repeat;
+  background-position: 65% 50%;
+}
+
+#contact-header{
+  color:white;
+  font-size:40pt;
+  font-weight:700;
+  letter-spacing:4px;
+  text-shadow: 0px 1px rgba(0,0,0,.5);
+}
+
+#contact-email{
+  color:white;
+  font-size:50px;
+  font-weight:300;
+  text-align:center;
+  margin-top:-10px;
+  text-shadow: 0px 1px rgba(0,0,0,.5);
+}
+
+#contact-credit{
+  font-size:12pt;
+  font-weight:500;
+  text-align:right;
+  color:rgb(50,48,49);
+  padding-bottom:10px;
+  margin-top:15px;
+}
+
+.contact-bkg{
+  background:rgb(193,51,46);
+
+}
+
+#contact{
+  margin-top:20px;
+}

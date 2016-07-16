@@ -1,0 +1,122 @@
+@media (max-width: 767px) {
+
+    #header{
+        height:140px;
+    }
+
+    #header-container{
+        height:140px;
+    }
+
+    #header-text{
+        position:absolute;
+        top:50%;
+        margin-top:-40px;
+    }
+
+    #header-logo{
+        position:absolute;
+        height:60px;
+        width:69px;
+        top:50%;
+        left:50%;
+        margin-top:-30px;
+        margin-left:-34px;
+
+    }
+
+    #page-title{
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing:3px;
+        font-size: 9pt;
+        text-shadow: 0px 1px rgba(0,0,0,.5);
+    }
+
+    #logo-large{
+        font-size:20pt;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing:7px;
+        float:right;
+        text-shadow: 0px 1px rgba(0,0,0,.5);
+    }
+
+    #term{
+        font-size:10pt;
+        letter-spacing:3px;
+        font-weight:900;
+        color:rgb(50,48,49);
+        float:right;
+    }
+
+    #sponsor-img{
+        position:relative;
+        height:250px;
+        float:left;
+        background: url('../img/sponsor.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: 50% 20%;
+
+    }
+
+    #in-the-news-picture{
+        position:relative;
+        margin-left:0px;
+        margin-right:0px;
+        width:100%;
+    }
+
+    #about-us-what-img
+    {
+        position:relative;
+        height:200px;
+        float:left;
+        background: url('../img/what-image.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+
+    #in-the-news-text.col-xs-12{
+        padding-right:70px;
+    }
+
+    #about-us-what-text{
+        height:auto;
+        margin-bottom:10px;
+    }
+
+    #about-us-who-text{
+        position:relative;
+        height: auto;
+        float: left;
+        margin-top:0px;
+    }
+
+    #contact-header{
+        font-size:25pt;
+        font-weight:700;
+        letter-spacing:4px;
+    }
+
+    #contact-email{
+        font-size:30px;
+        font-weight:300;
+        text-align:center;
+    }
+
+
+}
+
+
+section#in-the-news.col-xs-12{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#about-us.col-xs-12{
+    padding-left:0px;
+    padding-right:0px;
+}
